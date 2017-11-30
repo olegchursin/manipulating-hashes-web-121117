@@ -18,7 +18,7 @@ def first_challenge
   contacts["Freddy Mercury"].delete_if do |key, value|
     value == "strawberry"
 end
-
+binding.pry
   #remember to return your newly altered contacts hash!
   contacts
 end
